@@ -1,5 +1,5 @@
 def unsafe?(speed)
-  # this code is the most efficient way to write it, instead of using if statements I created a return boolean statement to evaluate speed > 60 or speed < 40 which results to a boolean
+  # this code is the most efficient way to write it, instead of using if statements I created a statement to return a boolean that evaluates speed > 60 or speed < 40 
   # return speed > 60 || speed < 40
   
   # used if, elsif, and else statements to evaluate if speed was > 60 or < 40 to return a true statement. Otherwise return false
