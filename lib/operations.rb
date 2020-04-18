@@ -21,7 +21,7 @@ end
 
 def not_safe?(speed)
 # 	return speed > 60 || speed < 40 ? true : false 
-# if speed is is greater than 60 then we have established that this statement is true. If it
+# if speed is is greater than 60 then we have established that this statement is true. If it the speed is less or equal to 60 then it will evaluate speed < 40 to mark it true or false.
   return speed > 60 ? true : speed < 40
 end
 	
