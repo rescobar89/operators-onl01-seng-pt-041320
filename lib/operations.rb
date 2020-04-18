@@ -13,6 +13,7 @@ def unsafe?(speed)
     return true
   end
   return speed < 40
+  # if speed is less than 60 dont return and this evaluates the line 15 to see 
 end
 
 
